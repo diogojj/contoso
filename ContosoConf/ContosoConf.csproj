@@ -191,6 +191,7 @@
     <Content Include="dist\speakerBadge.bundle.js.map" />
     <Content Include="dist\video.bundle.js.map" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\diogojjcontoso - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
