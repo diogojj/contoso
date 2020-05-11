@@ -1,6 +1,6 @@
 ﻿import { LivePage } from "../LivePage.js";
 // TODO: Create a web socket connection 
-const socket = new WebSocket("ws://diogojjcontoso.azurewebsites.net//live/socket.ashx");
+const socket = new WebSocket("http://diogojjcontoso.azurewebsites.net//live/socket.ashx");
 new LivePage(
     socket,
     document.querySelector("section.live")
