@@ -1,5 +1,5 @@
 ﻿import { LivePage } from "../LivePage.js";
-// TODO: Create a web socket connection to ws://localhost:55981/live/socket.ashx
+// TODO: Create a web socket connection 
 const socket = new WebSocket("ws://diogojjcontoso.azurewebsites.net//live/socket.ashx");
 new LivePage(
     socket,
